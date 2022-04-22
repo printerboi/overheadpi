@@ -1,0 +1,37 @@
+
+.cardButton{
+    border: none;
+    background-color: transparent;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.carbuttonContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-width: 2px;
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-radius: 0.25rem;
+}
+
+.carbuttonContainer:hover{
+    border-color: #398AB9 !important;
+}
+
+.CardIcon{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+    font-size: 30px;
+
+    margin-bottom: 25px;
+}
